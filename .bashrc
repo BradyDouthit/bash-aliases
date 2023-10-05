@@ -22,15 +22,8 @@ gitRefresh () {
     git pull origin $1
 }
 
-runDarkBlue () {
-    cd /home/ubuntu/dev/delphi/app
-    yarn start
-}
-
 alias add="gitAdd"
 alias status="gitStatus"
 alias commit="gitCommit"
 alias push="gitPush"
 alias refresh="gitRefresh"
-
-alias darkblue="runDarkBlue"
